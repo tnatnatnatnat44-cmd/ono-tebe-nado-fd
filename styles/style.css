@@ -1,1 +1,15 @@
-/* место для вашего кода */
+.header-nav {
+    list-style-type: circle;
+}
+
+.active-link {
+    list-style-type: none;
+}
+
+.header-address {
+    list-style-type: none;
+}
+
+.address {
+    text-underline-offset: 4px;
+}
