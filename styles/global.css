@@ -39,38 +39,3 @@ a {
 img {
   width: 100%;
 }
-
-.pixel-perfect-image {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.5;
-  filter: sepia(0.6);
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-  padding: 94px 50px;
-}
-
-.logo-black {
-  width: 135px;
-  height: 105px;
-}
-
-.header-nav {
-  display: flex;
-  gap: 34px;
-}
-
-.header-address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-self: end;
-  max-width: 240px;
-  gap: 7px;
-}
