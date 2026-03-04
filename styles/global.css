@@ -23,6 +23,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
@@ -30,6 +31,8 @@ blockquote {
   line-height: 100%;
   letter-spacing: 0%;
 
+=======
+>>>>>>> 966d7cb39d68642416ed780d718156a892e4bc47
 }
 
 a {
@@ -39,3 +42,10 @@ a {
 img {
   width: 100%;
 }
+<<<<<<< HEAD
+=======
+
+button {
+  font: inherit;
+}
+>>>>>>> 966d7cb39d68642416ed780d718156a892e4bc47
