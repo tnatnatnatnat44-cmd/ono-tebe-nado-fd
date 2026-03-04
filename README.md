@@ -1,1 +1,1 @@
-[https://github.com/tnatnatnatnat44-cmd/ono-tebe-nado](https://github.com/tnatnatnatnat44-cmd/ono-tebe-nado)
+https://github.com/tnatnatnatnat44-cmd/ono-tebe-nado-fd
