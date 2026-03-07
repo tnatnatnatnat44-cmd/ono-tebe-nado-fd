@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link href=".\fonts\fonts.css" rel="stylesheet">
     <link href=".\styles\global.css" rel="stylesheet">
     <link href=".\styles\style.css" rel="stylesheet">
-    <link href=".\fonts\fonts.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav>
-        <ul class="header-nav">
-          <li class="active-link">
-            <a href="#">главная</a>
+        <ul class="header-nav"> 
+          <li class="active-link"> 
+            <a class="active-link" href="#">главная</a> 
           </li>
           <li>
             <a href="#">посмотреть лоты</a>
@@ -28,7 +28,7 @@
         <img src=".\images\logo-black.svg" alt="лого аукциона в чёрном цвете">
       </a>
       <address>
-        <ol class="header-address">
+        <ul class="address-list">
           <li>
             <a href="tel:+99995555555" class="address">+9 999 555 5555</a>
           </li>
@@ -38,15 +38,15 @@
           <li>
             <p>наб. Принсенграхт 263- 265, Амстердам</p>
           </li>
-        </ol>
+        </ul>
       </adress>
     </header>
     <main>
       <section class="cover overlay">
         <h1>
-          <span class="cover-item-first">ОНО</span>
-          <span class="cover-item-second">ТЕБЕ</span>
-          <span class="cover-item-third">НАДО</span>
+          <span class="cover-item-ono">ОНО</span>
+          <span class="cover-item-tebe">ТЕБЕ</span>
+          <span class="cover-item-nado">НАДО</span>
         </h1>
         <div class="description">
           <p class="subline">
@@ -59,28 +59,28 @@
       </section>
       <section class="lots">
         <h2>Лоты</h2>
-        <ul>
+        <ul class="card-list">
           <li class="lots-card">
             <a>
-              <article class="film-lot overlay">
+              <article class="card film overlay">
                <h3>Фильм режиссёра, который бросил киношколу</h3>
-               <p class="about-film-lot">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+               <p class="about-card">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
             </a>
           </li>
           <li class="lots-card">
             <a>
-              <article class="book-lot overlay">
+              <article class="card book overlay">
                <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
-               <p class="about-book-lot">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+               <p class="about-card">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
             </a>
           </li>
           <li class="lots-card">
             <a>
-              <article class="pic-lot overlay">
+              <article class="card pic overlay">
                <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-               <p class="about-pic-lot">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+               <p class="about-card">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
             </a>
           </li>
@@ -93,18 +93,18 @@
           <img src=".\images\logo-white.svg" alt="логотип аукциона в белом цвете">
         </a>
       </div>
-        <information class="info">
+        <div class="info">
           <h2 class="name-about">Об аукционе</h2>
           <div class="text-about">
             <p class="about-auction">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
             <p class="about-auction">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
           </div>
-        </information>
+        </div>
       </section>
     </main>
     <footer>
       <address class="footer-address">
-        <ol class="footer-address-list">
+        <ul class="address-list">
           <li>
             <a href="tel:+99995555555">+9 999 555 5555</a>
           </li>
@@ -112,10 +112,10 @@
             <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <p>наб. Принсенграхт 263-265, Амстердам</p>
-        </ol>
+        </ul>
       </address>
       <nav class="footer-nav">
-        <ol class="footer-nav-list">
+        <ul class="footer-nav-list">
           <li class="acvtive-link">
             <a>главная</a>
           </li>
@@ -125,19 +125,19 @@
           <li>
             <a href="#">об аукционе</a>
           </li>
-        </ol>
+        </ul>
       </nav>
-      <socials class="socials">
+      <div class="socials">
         <a href="#">
-          <img  class="youtube" src=".\images\yt.svg" alt="ссылка на youtube">
+          <img  class="icon" src=".\images\yt.svg" alt="ссылка на youtube">
         </a>
         <a href="#">
-          <img class="vk" src=".\images\vk.svg" alt="ссылка на вконтакте">
+          <img class="icon" src=".\images\vk.svg" alt="ссылка на вконтакте">
         </a>
         <a href="#">
-          <img class="pinterest" src=".\images\pinterest.svg" alt="ссылка на пинтерест">
+          <img class="icon" src=".\images\pinterest.svg" alt="ссылка на пинтерест">
         </a>
-      </socials>
+      </div>
     </footer>
   </body>
 </html>
