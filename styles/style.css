@@ -31,7 +31,7 @@ header {
   font-style: normal;
 }
 
-.address {
+.number {
   all: initial;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -39,7 +39,12 @@ header {
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer-address {
+  margin-right: 80px;
 }
 
 .cover {
